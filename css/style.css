@@ -39,8 +39,8 @@ html {
 /* TYPOGRAPHY */
 
 body {
-    font-family: var(--main-font-faimily);
-    color: var(--main-color);
+  font-family: var(--main-font-faimily);
+  color: var(--main-color);
 }
 
 .title {
@@ -200,7 +200,7 @@ body {
 }
 
 .banner__title::first-line {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 .banner__link {
@@ -390,41 +390,42 @@ body {
 .newsletter-section {
   background: center / cover no-repeat
     url(../images/icons/newslatter-section-backgroung.png) var(--bg-color);
-    padding-top: 102px;
-    padding-bottom: 136px;
+  padding-top: 102px;
+  padding-bottom: 136px;
 }
 
 .newsletter {
-    text-align: center;
+  text-align: center;
 }
 
 .newsletter__form {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .submit {
-    display: flex;
+  display: flex;
 }
 
-.submit__email{
-    border: 0;
-    padding: 0;
-    padding-left: 30px;
-    width: 450px;
-    height: 60px;
-    background-color: var(--white-color);
+.submit__email {
+  border: 0;
+  padding: 0;
+  padding-left: 30px;
+  width: 450px;
+  height: 60px;
+  background-color: var(--white-color);
 }
 
 .submit__button {
-    width: 90px;
-    height: 56px;
-    background: no-repeat center/55% url(../images/icons/button-arrows.png) #4ec6ab;
-    border: 2px solid var(--white-color);
-    border-radius:  0px 5px 5px 0px;
+  width: 90px;
+  height: 56px;
+  background: no-repeat center/55% url(../images/icons/button-arrows.png)
+    #4ec6ab;
+  border: 2px solid var(--white-color);
+  border-radius: 0px 5px 5px 0px;
 }
 
 .submit__button:hover,
 .submit__button:focus {
-    border: 2px solid var(--light-bg-color);
+  border: 2px solid var(--light-bg-color);
 }
