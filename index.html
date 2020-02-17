@@ -15,17 +15,24 @@
     <header>
       <nav>
         <section class="user-section">
+          <h2 class="visually-hidden">User navigation</h2>
           <div class="user-header container">
             <ul class="user-header__contact-list list">
               <li class="user-header__item">
-                <a href="tel:123-123456789" class="user-header__link user-header__link--phone link"
-                  >123-123456789</a
-                >
+                <a href="tel:123-123456789" class="user-header__link link">
+                  <svg class="user-header__icon">
+                    <use href="./images/icons/sprite.svg#icon-call"></use>
+                  </svg>
+                  123-123456789
+                </a>
               </li>
               <li class="user-header__item">
-                <a href="mailto:info@ltntcom" class="user-header__link user-header__link--mail link"
-                  >info@ltntcom</a
-                >
+                <a href="mailto:info@ltntcom" class="user-header__link link">
+                  <svg class="user-header__icon">
+                    <use href="./images/icons/sprite.svg#icon-email"></use>
+                  </svg>
+                  info@ltntcom
+                </a>
               </li>
             </ul>
             <ul class="user-header__authentication-list list">
@@ -49,6 +56,7 @@
         </section>
 
         <section class="nav-section">
+          <h2 class="visually-hidden">Site navigation</h2>
           <div class="nav-header container">
             <a href="#" class="nav-header__logo link">Mart</a>
 
@@ -95,7 +103,10 @@
       <section class="about-section">
         <div class="about container">
           <ul class="about__list list">
-            <li class="about__item about__item--setting">
+            <li class="about__item">
+              <svg class="about__icon">
+                <use href="./images/icons/sprite.svg#icon-settings"></use>
+              </svg>
               <h2 class="about__title">Setting</h2>
               <p class="about__description">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio,
@@ -104,7 +115,10 @@
                 tempora rerum voluptatibus.
               </p>
             </li>
-            <li class="about__item about__item--safe">
+            <li class="about__item">
+              <svg class="about__icon">
+                <use href="./images/icons/sprite.svg#icon-money-back"></use>
+              </svg>
               <h2 class="about__title">Money back</h2>
               <p class="about__description">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio,
@@ -113,7 +127,10 @@
                 tempora rerum voluptatibus.
               </p>
             </li>
-            <li class="about__item about__item--world">
+            <li class="about__item">
+              <svg class="about__icon">
+                <use href="./images/icons/sprite.svg#icon-world"></use>
+              </svg>
               <h2 class="about__title">Worldwide shipping</h2>
               <p class="about__description">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio,
@@ -122,7 +139,10 @@
                 tempora rerum voluptatibus.
               </p>
             </li>
-            <li class="about__item about__item--compass">
+            <li class="about__item">
+              <svg class="about__icon">
+                <use href="./images/icons/sprite.svg#icon-compass"></use>
+              </svg>
               <h2 class="about__title">Worldwide shipping</h2>
               <p class="about__description">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio,
@@ -142,12 +162,30 @@
             <li class="collection__item">
               <div class="collection__img-wrapper overlay">
                 <div class="action">
-                  <button class="action__button"></button>
-                  <button class="action__button"></button>
-                  <button class="action__button"></button>
-                  <button class="action__button--add action__button--basket">Add to card</button>
+                  <button class="action__button">
+                    <svg class="action__icon">
+                      <use href="./images/icons/sprite.svg#icon-heart"></use>
+                    </svg>
+                  </button>
+                  <button class="action__button">
+                    <svg class="action__icon">
+                      <use href="./images/icons/sprite.svg#icon-shuffle"></use>
+                    </svg>
+                  </button>
+                  <button class="action__button">
+                    <svg class="action__icon">
+                      <use href="./images/icons/sprite.svg#icon-clock"></use>
+                    </svg>
+                  </button>
+                  <button class="action__button--add action__button--basket">
+                    <svg class="action__icon--basket">
+                      <use href="./images/icons/sprite.svg#icon-basket"></use>
+                    </svg>
+                    Add to card
+                  </button>
                 </div>
                 <img
+                  srcset="./images/collection/collection-item-1@2x.jpg 510w"
                   src="./images/collection/collection-item-1.jpg"
                   alt="Product example"
                   width="255"
@@ -164,12 +202,30 @@
             <li class="collection__item">
               <div class="collection__img-wrapper overlay">
                 <div class="action">
-                  <button class="action__button"></button>
-                  <button class="action__button"></button>
-                  <button class="action__button"></button>
-                  <button class="action__button--add action__button--basket">Add to card</button>
+                  <button class="action__button">
+                    <svg class="action__icon">
+                      <use href="./images/icons/sprite.svg#icon-heart"></use>
+                    </svg>
+                  </button>
+                  <button class="action__button">
+                    <svg class="action__icon">
+                      <use href="./images/icons/sprite.svg#icon-shuffle"></use>
+                    </svg>
+                  </button>
+                  <button class="action__button">
+                    <svg class="action__icon">
+                      <use href="./images/icons/sprite.svg#icon-clock"></use>
+                    </svg>
+                  </button>
+                  <button class="action__button--add action__button--basket">
+                    <svg class="action__icon--basket">
+                      <use href="./images/icons/sprite.svg#icon-basket"></use>
+                    </svg>
+                    Add to card
+                  </button>
                 </div>
                 <img
+                  srcset="./images/collection/collection-item-2@2x.jpg 510w"
                   src="./images/collection/collection-item-2.jpg"
                   alt="Product example"
                   width="255"
@@ -186,12 +242,30 @@
             <li class="collection__item">
               <div class="collection__img-wrapper overlay">
                 <div class="action">
-                  <button class="action__button"></button>
-                  <button class="action__button"></button>
-                  <button class="action__button"></button>
-                  <button class="action__button--add action__button--basket">Add to card</button>
+                  <button class="action__button">
+                    <svg class="action__icon">
+                      <use href="./images/icons/sprite.svg#icon-heart"></use>
+                    </svg>
+                  </button>
+                  <button class="action__button">
+                    <svg class="action__icon">
+                      <use href="./images/icons/sprite.svg#icon-shuffle"></use>
+                    </svg>
+                  </button>
+                  <button class="action__button">
+                    <svg class="action__icon">
+                      <use href="./images/icons/sprite.svg#icon-clock"></use>
+                    </svg>
+                  </button>
+                  <button class="action__button--add action__button--basket">
+                    <svg class="action__icon--basket">
+                      <use href="./images/icons/sprite.svg#icon-basket"></use>
+                    </svg>
+                    Add to card
+                  </button>
                 </div>
                 <img
+                  srcset="./images/collection/collection-item-3@2x.jpg 510w"
                   src="./images/collection/collection-item-3.jpg"
                   alt="Product example"
                   width="255"
@@ -208,12 +282,30 @@
             <li class="collection__item">
               <div class="collection__img-wrapper overlay">
                 <div class="action">
-                  <button class="action__button"></button>
-                  <button class="action__button"></button>
-                  <button class="action__button"></button>
-                  <button class="action__button--add action__button--basket">Add to card</button>
+                  <button class="action__button">
+                    <svg class="action__icon">
+                      <use href="./images/icons/sprite.svg#icon-heart"></use>
+                    </svg>
+                  </button>
+                  <button class="action__button">
+                    <svg class="action__icon">
+                      <use href="./images/icons/sprite.svg#icon-shuffle"></use>
+                    </svg>
+                  </button>
+                  <button class="action__button">
+                    <svg class="action__icon">
+                      <use href="./images/icons/sprite.svg#icon-clock"></use>
+                    </svg>
+                  </button>
+                  <button class="action__button--add action__button--basket">
+                    <svg class="action__icon--basket">
+                      <use href="./images/icons/sprite.svg#icon-basket"></use>
+                    </svg>
+                    Add to card
+                  </button>
                 </div>
                 <img
+                  srcset="./images/collection/collection-item-4@2x.jpg 510w"
                   src="./images/collection/collection-item-4.jpg"
                   alt="Product example"
                   width="255"
@@ -238,12 +330,30 @@
             <li class="feature__item">
               <div class="feature__img-wrapper overlay">
                 <div class="action">
-                  <button class="action__button"></button>
-                  <button class="action__button"></button>
-                  <button class="action__button"></button>
-                  <button class="action__button--add action__button--basket">Add to card</button>
+                  <button class="action__button">
+                    <svg class="action__icon">
+                      <use href="./images/icons/sprite.svg#icon-heart"></use>
+                    </svg>
+                  </button>
+                  <button class="action__button">
+                    <svg class="action__icon">
+                      <use href="./images/icons/sprite.svg#icon-shuffle"></use>
+                    </svg>
+                  </button>
+                  <button class="action__button">
+                    <svg class="action__icon">
+                      <use href="./images/icons/sprite.svg#icon-clock"></use>
+                    </svg>
+                  </button>
+                  <button class="action__button--add action__button--basket">
+                    <svg class="action__icon--basket">
+                      <use href="./images/icons/sprite.svg#icon-basket"></use>
+                    </svg>
+                    Add to card
+                  </button>
                 </div>
                 <img
+                  srcset="./images/features/features-item-1@2x.png 510w"
                   src="./images/features/features-item-1.png"
                   alt="Product example"
                   width="255"
@@ -260,12 +370,30 @@
             <li class="feature__item">
               <div class="feature__img-wrapper overlay">
                 <div class="action">
-                  <button class="action__button"></button>
-                  <button class="action__button"></button>
-                  <button class="action__button"></button>
-                  <button class="action__button--add action__button--basket">Add to card</button>
+                  <button class="action__button">
+                    <svg class="action__icon">
+                      <use href="./images/icons/sprite.svg#icon-heart"></use>
+                    </svg>
+                  </button>
+                  <button class="action__button">
+                    <svg class="action__icon">
+                      <use href="./images/icons/sprite.svg#icon-shuffle"></use>
+                    </svg>
+                  </button>
+                  <button class="action__button">
+                    <svg class="action__icon">
+                      <use href="./images/icons/sprite.svg#icon-clock"></use>
+                    </svg>
+                  </button>
+                  <button class="action__button--add action__button--basket">
+                    <svg class="action__icon--basket">
+                      <use href="./images/icons/sprite.svg#icon-basket"></use>
+                    </svg>
+                    Add to card
+                  </button>
                 </div>
                 <img
+                  srcset="./images/features/features-item-2@2x.png 352w"
                   src="./images/features/features-item-2.png"
                   alt="Product example"
                   width="176"
@@ -282,12 +410,30 @@
             <li class="feature__item">
               <div class="feature__img-wrapper overlay">
                 <div class="action">
-                  <button class="action__button"></button>
-                  <button class="action__button"></button>
-                  <button class="action__button"></button>
-                  <button class="action__button--add action__button--basket">Add to card</button>
+                  <button class="action__button">
+                    <svg class="action__icon">
+                      <use href="./images/icons/sprite.svg#icon-heart"></use>
+                    </svg>
+                  </button>
+                  <button class="action__button">
+                    <svg class="action__icon">
+                      <use href="./images/icons/sprite.svg#icon-shuffle"></use>
+                    </svg>
+                  </button>
+                  <button class="action__button">
+                    <svg class="action__icon">
+                      <use href="./images/icons/sprite.svg#icon-clock"></use>
+                    </svg>
+                  </button>
+                  <button class="action__button--add action__button--basket">
+                    <svg class="action__icon--basket">
+                      <use href="./images/icons/sprite.svg#icon-basket"></use>
+                    </svg>
+                    Add to card
+                  </button>
                 </div>
                 <img
+                  srcset="./images/features/features-item-3@2x.png 458w"
                   src="./images/features/features-item-3.png"
                   alt="Product example"
                   width="229"
@@ -304,12 +450,30 @@
             <li class="feature__item">
               <div class="feature__img-wrapper overlay">
                 <div class="action">
-                  <button class="action__button"></button>
-                  <button class="action__button"></button>
-                  <button class="action__button"></button>
-                  <button class="action__button--add action__button--basket">Add to card</button>
+                  <button class="action__button">
+                    <svg class="action__icon">
+                      <use href="./images/icons/sprite.svg#icon-heart"></use>
+                    </svg>
+                  </button>
+                  <button class="action__button">
+                    <svg class="action__icon">
+                      <use href="./images/icons/sprite.svg#icon-shuffle"></use>
+                    </svg>
+                  </button>
+                  <button class="action__button">
+                    <svg class="action__icon">
+                      <use href="./images/icons/sprite.svg#icon-clock"></use>
+                    </svg>
+                  </button>
+                  <button class="action__button--add action__button--basket">
+                    <svg class="action__icon--basket">
+                      <use href="./images/icons/sprite.svg#icon-basket"></use>
+                    </svg>
+                    Add to card
+                  </button>
                 </div>
                 <img
+                  srcset="./images/features/features-item-4@2x.png 480w"
                   src="./images/features/features-item-4.png"
                   alt="Product example"
                   width="240"
@@ -326,12 +490,30 @@
             <li class="feature__item">
               <div class="feature__img-wrapper overlay">
                 <div class="action">
-                  <button class="action__button"></button>
-                  <button class="action__button"></button>
-                  <button class="action__button"></button>
-                  <button class="action__button--add action__button--basket">Add to card</button>
+                  <button class="action__button">
+                    <svg class="action__icon">
+                      <use href="./images/icons/sprite.svg#icon-heart"></use>
+                    </svg>
+                  </button>
+                  <button class="action__button">
+                    <svg class="action__icon">
+                      <use href="./images/icons/sprite.svg#icon-shuffle"></use>
+                    </svg>
+                  </button>
+                  <button class="action__button">
+                    <svg class="action__icon">
+                      <use href="./images/icons/sprite.svg#icon-clock"></use>
+                    </svg>
+                  </button>
+                  <button class="action__button--add action__button--basket">
+                    <svg class="action__icon--basket">
+                      <use href="./images/icons/sprite.svg#icon-basket"></use>
+                    </svg>
+                    Add to card
+                  </button>
                 </div>
                 <img
+                  srcset="./images/features/features-item-5@2x.png 396w"
                   src="./images/features/features-item-5.png"
                   alt="Product example"
                   width="198"
@@ -348,12 +530,30 @@
             <li class="feature__item">
               <div class="feature__img-wrapper overlay">
                 <div class="action">
-                  <button class="action__button"></button>
-                  <button class="action__button"></button>
-                  <button class="action__button"></button>
-                  <button class="action__button--add action__button--basket">Add to card</button>
+                  <button class="action__button">
+                    <svg class="action__icon">
+                      <use href="./images/icons/sprite.svg#icon-heart"></use>
+                    </svg>
+                  </button>
+                  <button class="action__button">
+                    <svg class="action__icon">
+                      <use href="./images/icons/sprite.svg#icon-shuffle"></use>
+                    </svg>
+                  </button>
+                  <button class="action__button">
+                    <svg class="action__icon">
+                      <use href="./images/icons/sprite.svg#icon-clock"></use>
+                    </svg>
+                  </button>
+                  <button class="action__button--add action__button--basket">
+                    <svg class="action__icon--basket">
+                      <use href="./images/icons/sprite.svg#icon-basket"></use>
+                    </svg>
+                    Add to card
+                  </button>
                 </div>
                 <img
+                  srcset="./images/features/features-item-6@2x.png 508w"
                   src="./images/features/features-item-6.png"
                   alt="Product example"
                   width="255"
@@ -370,12 +570,30 @@
             <li class="feature__item">
               <div class="feature__img-wrapper overlay">
                 <div class="action">
-                  <button class="action__button"></button>
-                  <button class="action__button"></button>
-                  <button class="action__button"></button>
-                  <button class="action__button--add action__button--basket">Add to card</button>
+                  <button class="action__button">
+                    <svg class="action__icon">
+                      <use href="./images/icons/sprite.svg#icon-heart"></use>
+                    </svg>
+                  </button>
+                  <button class="action__button">
+                    <svg class="action__icon">
+                      <use href="./images/icons/sprite.svg#icon-shuffle"></use>
+                    </svg>
+                  </button>
+                  <button class="action__button">
+                    <svg class="action__icon">
+                      <use href="./images/icons/sprite.svg#icon-clock"></use>
+                    </svg>
+                  </button>
+                  <button class="action__button--add action__button--basket">
+                    <svg class="action__icon--basket">
+                      <use href="./images/icons/sprite.svg#icon-basket"></use>
+                    </svg>
+                    Add to card
+                  </button>
                 </div>
                 <img
+                  srcset="./images/features/features-item-7@2x.png 392w"
                   src="./images/features/features-item-7.png"
                   alt="Product example"
                   width="196"
@@ -392,12 +610,30 @@
             <li class="feature__item">
               <div class="feature__img-wrapper overlay">
                 <div class="action">
-                  <button class="action__button"></button>
-                  <button class="action__button"></button>
-                  <button class="action__button"></button>
-                  <button class="action__button--add action__button--basket">Add to card</button>
+                  <button class="action__button">
+                    <svg class="action__icon">
+                      <use href="./images/icons/sprite.svg#icon-heart"></use>
+                    </svg>
+                  </button>
+                  <button class="action__button">
+                    <svg class="action__icon">
+                      <use href="./images/icons/sprite.svg#icon-shuffle"></use>
+                    </svg>
+                  </button>
+                  <button class="action__button">
+                    <svg class="action__icon">
+                      <use href="./images/icons/sprite.svg#icon-clock"></use>
+                    </svg>
+                  </button>
+                  <button class="action__button--add action__button--basket">
+                    <svg class="action__icon--basket">
+                      <use href="./images/icons/sprite.svg#icon-basket"></use>
+                    </svg>
+                    Add to card
+                  </button>
                 </div>
                 <img
+                  srcset="./images/features/features-item-8@2x.png 468w"
                   src="./images/features/features-item-8.png"
                   alt="Product example"
                   width="234"
@@ -421,6 +657,7 @@
           <ul class="blog__list list">
             <li class="blog__item">
               <img
+                srcset="./images/blog/the-tablet@2x.jpg 694w"
                 src="./images/blog/the-tablet.jpg"
                 alt="The tablet"
                 width="350"
@@ -440,6 +677,7 @@
             </li>
             <li class="blog__item">
               <img
+                srcset="./images/blog/two-girls@2x.jpg 694w"
                 src="./images/blog/two-girls.jpg"
                 alt="Two girls"
                 width="350"
@@ -459,6 +697,7 @@
             </li>
             <li class="blog__item">
               <img
+                srcset="./images/blog/a-bus@2x.jpg 694w"
                 src="./images/blog/a-bus.jpg"
                 alt="Bus"
                 width="350"
@@ -496,8 +735,12 @@
                 placeholder="Enter your email here"
                 class="submit__email"
               />
-              <button type="submit" class="submit__button button"></button>
             </label>
+            <button type="submit" class="submit__button button">
+              <svg class="submit__icon">
+                <use href="./images/icons/sprite.svg#icon-send"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </section>
