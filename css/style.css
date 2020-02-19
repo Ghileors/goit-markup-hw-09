@@ -29,7 +29,14 @@ html {
 }
 
 .visually-hidden {
-  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: (0 0 0 0);
+  overflow: hidden;
 }
 
 /* CONTAINER */
@@ -204,12 +211,13 @@ body {
   justify-content: center;
   height: 600px;
   background-color: var(--main-color);
-  background-image: linear-gradient(
+  background: linear-gradient(
       to bottom right,
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)
     ),
     url(../images/banner/banner.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
